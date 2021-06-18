@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-hw-09",
+  "version": "1.0.0",
+  "description": "hw-08 on Parsel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /goit-js-hw-09/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinettePinch/goit-js-hw-09.git"
+  },
+  "author": "MARINA_PINCHUK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarinettePinch/goit-js-hw-09/issues"
+  },
+  "homepage": "https://MarinettePinch.github.io/goit-js-hw-09",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.2"
+  }
+}
